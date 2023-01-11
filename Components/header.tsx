@@ -12,7 +12,7 @@ export default function Header() {
       <div className={`${rubik.className} ${styles.header}`}>
         <div className={styles.logo}>
           <div className={styles.logo_decoration}></div>
-          <Link href="">
+          <Link href="/">
             <h2 className={styles.logo_image}>
               Home
             </h2>
@@ -20,7 +20,7 @@ export default function Header() {
         </div>
         <div className={styles.links}>
           <div className={styles.link_container}>
-            <Link href="/Projects" className={styles.header_link}>
+            <Link href="/projects" className={styles.header_link}>
               <h1>Projects</h1>
             </Link>
           </div>
@@ -30,7 +30,7 @@ export default function Header() {
             </Link>
           </div>
           <div className={styles.link_container}>
-            <Link href="/Contact" className={styles.header_link}>
+            <Link href="/contact" className={styles.header_link}>
               <h1>Contact</h1>
             </Link>
           </div>

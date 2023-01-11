@@ -60,7 +60,7 @@ export default function Home() {
               <ul className={styles.grid_content}>
                 <li><p>If you are interested in working with me, let me know!</p></li>
               </ul>
-              <Link href="/Contact">
+              <Link href="/contact">
                 <div>
                   <p>Learn More</p>
                   <hr></hr>
@@ -73,7 +73,7 @@ export default function Home() {
                 <li>OJR TPAC site - a website for a technology help club.</li>
                 <li>Physics Simulation - a site simulating round particles.</li>
               </ul>
-              <Link href="/Projects">
+              <Link href="/projects">
                 <div>
                   <p>Learn More</p>
                   <hr></hr>

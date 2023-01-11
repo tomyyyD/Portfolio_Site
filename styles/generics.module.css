@@ -1,0 +1,48 @@
+
+/* colors */
+.main_purple {
+    background-color: var(--main-purple);
+}
+
+.main_blue {
+    background-color: var(--main-blue);
+}
+
+.secondary_blue {
+    background-color: var(--secondary-blue);
+}
+
+.main_red {
+    background-color: var(--main-red);
+}
+
+.main_green {
+    background-color: var(--main-green);
+}
+
+/* Rotations*/
+.ccw_1 {
+    transform: scale(93%)rotate(-1deg);
+}
+.ccw_2 {
+    transform: scale(93%)rotate(-2deg);
+}
+.ccw_3 {
+    transform: scale(93%)rotate(-3deg);
+}
+.ccw_4 {
+    transform: scale(93%)rotate(-4deg);
+}
+
+.cw_1 {
+    transform: scale(93%)rotate(1deg);
+}
+.cw_2 {
+    transform: scale(93%)rotate(2deg);
+}
+.cw_3 {
+    transform: scale(93%)rotate(3deg);
+}
+.cw_4 {
+    transform: scale(93%)rotate(4deg);
+}
