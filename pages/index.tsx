@@ -1,8 +1,6 @@
 import { Rubik } from '@next/font/google'
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
-import Footer from '../Components/footer'
 import Header from '../Components/header'
 import styles from '../styles/Home.module.css'
 
