@@ -68,11 +68,11 @@ export default function Home() {
                   <li>It has a pleasing flat colored UI with friendly icons and a matte grey background.</li>
                 </ul>
                 <div className={styles.screenshot_container}>
-                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.1.png" alt="screenshot of TempoNet login page" width={300} height={650}></Image>
-                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.5.png" alt="TempoNet Search Screen" width={300} height={650}></Image>
-                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.4.png" alt="TempoNet Search Screen" width={300} height={650}></Image>
-                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.2.png" alt="TempoNet Registration Screen" width={300} height={650}></Image>
-                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.3.png" alt="TempoNet Search Screen" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.1.PNG" alt="screenshot of TempoNet login page" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.5.PNG" alt="TempoNet Search Screen" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.4.PNG" alt="TempoNet Search Screen" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.2.PNG" alt="TempoNet Registration Screen" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.3.PNG" alt="TempoNet Search Screen" width={300} height={650}></Image>
                 </div>
               </Link>
             </div>
