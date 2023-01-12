@@ -52,7 +52,7 @@ export default function Home() {
                 <h1 className={styles.project_title}>PocketQube Satellite</h1>
                 <ul className={styles.project_summary}>
                   <li>I am an undergraduate research assistant on the PocketQube satelite project!</li>
-                  <li>I am working in Carnegie Mellon University's Robotics Exploration Laboratory, RExLab for short.</li>
+                  <li>I am working in Carnegie Mellon University&apos;s Robotics Exploration Laboratory, RExLab for short.</li>
                   <li>I started working on this projects December 1st 2022, and, so far, I have made a logging system that recieves data from the satellite and logs the bytes in a file structure based on the time it was logged, which makes the data easy to retrieve and unpack!</li>
                 </ul>
               </Link>
@@ -64,7 +64,7 @@ export default function Home() {
                 <h1 className={styles.project_title}>TempoNet</h1>
                 <ul className={styles.project_summary}>
                   <li>This is a currently in-developmet app designed to help runners find other runners in their location to run with.</li>
-                  <li>The app will have a "matching" algorithm that uses factors such as zip code, average running pace, average running distance, average weekly mileage, gender, and preferred racing events.</li>
+                  <li>The app will have a &quot;matching&quot; algorithm that uses factors such as zip code, average running pace, average running distance, average weekly mileage, gender, and preferred racing events.</li>
                   <li>It has a pleasing flat colored UI with friendly icons and a matte grey background.</li>
                 </ul>
                 <div className={styles.screenshot_container}>
