@@ -30,81 +30,97 @@ export default function Home() {
           <div className={`${generics.main_green} ${styles.header_underline}`}></div>
         </div>
         <div className={styles.projects_list}>
-          <Link className={styles.project_left} href="/projects/scratch-112">
+          <div className={styles.project_left}>
             <div className={`${generics.ccw_1} ${generics.main_red} ${styles.project_container}`}>
-              <h1 className={styles.project_title}>Scratch-112</h1>
-              <ul className={styles.project_summary}>
-                <li>A Block-Based programming language created in Python. Blocks use a drag and drop interface to create programs.</li>
-                <li>An Imperative language that supports looping, conditional statements, functions, and recursion.</li>
-                <li>Blocks are interpreted into Python and the Python is run to execute the program you create using the blocks.</li>
-              </ul>
-              <div className={styles.screenshot_container}>
-                <Image className={styles.screenshot} src="/screenshots/Scratch-112.1.png" alt="Scratch-112 GUI" width={600} height={450}></Image>
-                <Image className={`${styles.screenshot} ${styles.screenshot_two}`} src="/screenshots/Scratch-112.2.png" alt="Scratch-112 GUI populated with blocks" width={600} height={450}></Image>
-              </div>
+              <Link href="/projects/scratch-112">
+                <h1 className={styles.project_title}>Scratch-112</h1>
+                <ul className={styles.project_summary}>
+                  <li>A Block-Based programming language created in Python. Blocks use a drag and drop interface to create programs.</li>
+                  <li>An Imperative language that supports looping, conditional statements, functions, and recursion.</li>
+                  <li>Blocks are interpreted into Python and the Python is run to execute the program you create using the blocks.</li>
+                </ul>
+                <div className={styles.screenshot_container}>
+                  <Image priority className={styles.screenshot} src="/screenshots/Scratch-112.1.png" alt="Scratch-112 GUI" width={600} height={450}></Image>
+                  <Image priority className={`${styles.screenshot} ${styles.screenshot_two}`} src="/screenshots/Scratch-112.2.png" alt="Scratch-112 GUI populated with blocks" width={600} height={450}></Image>
+                </div>
+              </Link>
             </div>
-          </Link>
-          <Link className={styles.project_right} href="/projects/pocketqube">
+          </div>
+          <div className={styles.project_right}>
             <div className={`${generics.cw_1} ${generics.secondary_blue} ${styles.project_container}`}>
-              <h1 className={styles.project_title}>PocketQube Satellite</h1>
-              <ul className={styles.project_summary}>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error ullam, ex voluptates pariatur velit ut, nesciunt blanditiis explicabo magnam aut fugit deleniti beatae repellendus sit enim in unde laborum.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime facere mollitia? Explicabo, quod doloremque placeat aliquid beatae obcaecati deserunt sunt quia at velit perspiciatis rerum numquam incidunt atque impedit!</li>
-              </ul>
+              <Link href="/projects/pocketqube">
+                <h1 className={styles.project_title}>PocketQube Satellite</h1>
+                <ul className={styles.project_summary}>
+                  <li>I am an undergraduate research assistant on the PocketQube satelite project!</li>
+                  <li>I am working in Carnegie Mellon University's Robotics Exploration Laboratory, RExLab for short.</li>
+                  <li>I started working on this projects December 1st 2022, and, so far, I have made a logging system that recieves data from the satellite and logs the bytes in a file structure based on the time it was logged, which makes the data easy to retrieve and unpack!</li>
+                </ul>
+              </Link>
             </div>
-          </Link>
-          <Link className={styles.project_left} href="/projects/temponet">
-            <div className={`${generics.cw_3} ${generics.main_green} ${styles.project_container}`}>
-              <h1 className={styles.project_title}>TempoNet</h1>
-              <ul className={styles.project_summary}>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, consectetur. Cupiditate, velit. Eaque sit, vero est fuga aliquid deleniti explicabo accusantium eum praesentium aspernatur exercitationem repellat id sapiente aperiam quasi!</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt accusantium impedit, vitae vero inventore rem excepturi quia odit ut sapiente aspernatur dolor, recusandae, consequatur cum ab reprehenderit illo quibusdam? Quo.</li>
-              </ul>
+          </div>
+          <div className={styles.project_left}>
+            <div className={`${generics.cw_1} ${generics.main_green} ${styles.project_container}`}>
+              <Link href="/projects/temponet">
+                <h1 className={styles.project_title}>TempoNet</h1>
+                <ul className={styles.project_summary}>
+                  <li>This is a currently in-developmet app designed to help runners find other runners in their location to run with.</li>
+                  <li>The app will have a "matching" algorithm that uses factors such as zip code, average running pace, average running distance, average weekly mileage, gender, and preferred racing events.</li>
+                  <li>It has a pleasing flat colored UI with friendly icons and a matte grey background.</li>
+                </ul>
+                <div className={styles.screenshot_container}>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.1.png" alt="screenshot of TempoNet login page" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.5.png" alt="TempoNet Search Screen" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.4.png" alt="TempoNet Search Screen" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.2.png" alt="TempoNet Registration Screen" width={300} height={650}></Image>
+                  <Image className={styles.phone_screenshot} priority src="/screenshots/temponet.3.png" alt="TempoNet Search Screen" width={300} height={650}></Image>
+                </div>
+              </Link>
             </div>
-          </Link>
-          <Link className={styles.project_right} href="projects/ojrtpac">
-            <div className={`${generics.ccw_3} ${generics.main_purple} ${styles.project_container}`}>
-              <h1 className={styles.project_title}>ojrtpac.com</h1>
-              <ul className={styles.project_summary}>
-                <li>A Block-Based programming language created in Python. Blocks use a drag and drop interface to create programs.</li>
-                <li>An Imperative language that supports looping, conditional statements, functions, and recursion.</li>
-                <li>Blocks are interpreted into Python and the Python is run to execute the program you create using the blocks.</li>
-              </ul>
+          </div>
+          <div className={styles.project_right}>
+            <div className={`${generics.cw_1} ${generics.main_purple} ${styles.project_container}`}>
+              <Link href="/projects/ojrtpac">
+                <h1 className={styles.project_title}>ojrtpac.com</h1>
+                <ul className={styles.project_summary}>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error ullam, ex voluptates pariatur velit ut, nesciunt blanditiis explicabo magnam aut fugit deleniti beatae repellendus sit enim in unde laborum.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime facere mollitia? Explicabo, quod doloremque placeat aliquid beatae obcaecati deserunt sunt quia at velit perspiciatis rerum numquam incidunt atque impedit!</li>
+                </ul>
+              </Link>
             </div>
-          </Link>
-          <Link className={styles.project_left} href="/projects/portfolio">
-            <div className={`${generics.ccw_1} ${generics.main_red} ${styles.project_container}`}>
-              <h1 className={styles.project_title}>This Website!</h1>
-              <ul className={styles.project_summary}>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod quasi sunt? Ipsum, impedit. Magni exercitationem obcaecati quasi autem eligendi itaque laboriosam assumenda amet natus perspiciatis molestiae nobis, consequuntur blanditiis?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eveniet, labore consectetur blanditiis accusantium corrupti inventore molestiae adipisci soluta delectus error? Asperiores aliquid corrupti provident quasi officiis consequatur sit. Enim!</li>
-              </ul>
-              <div className={styles.screenshot_container}>
-              </div>
+          </div>
+          <div className={styles.project_left}>
+            <div className={`${generics.cw_1} ${generics.main_red} ${styles.project_container}`}>
+              <Link href="/projects/portfolio">
+                <h1 className={styles.project_title}>This Website</h1>
+                <ul className={styles.project_summary}>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error ullam, ex voluptates pariatur velit ut, nesciunt blanditiis explicabo magnam aut fugit deleniti beatae repellendus sit enim in unde laborum.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime facere mollitia? Explicabo, quod doloremque placeat aliquid beatae obcaecati deserunt sunt quia at velit perspiciatis rerum numquam incidunt atque impedit!</li>
+                </ul>
+              </Link>
             </div>
-          </Link>
-          <Link className={styles.project_right} href="/projects/chatroom-app">
+          </div>
+          <div className={styles.project_right}>
             <div className={`${generics.cw_1} ${generics.main_blue} ${styles.project_container}`}>
-              <h1 className={styles.project_title}>ChatRoom App</h1>
-              <ul className={styles.project_summary}>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod quasi sunt? Ipsum, impedit. Magni exercitationem obcaecati quasi autem eligendi itaque laboriosam assumenda amet natus perspiciatis molestiae nobis, consequuntur blanditiis?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eveniet, labore consectetur blanditiis accusantium corrupti inventore molestiae adipisci soluta delectus error? Asperiores aliquid corrupti provident quasi officiis consequatur sit. Enim!</li>
-              </ul>
-              <div className={styles.screenshot_container}>
-              </div>
+              <Link href="/projects/chatroom-app">
+                <h1 className={styles.project_title}>ChatRoom App</h1>
+                <ul className={styles.project_summary}>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error ullam, ex voluptates pariatur velit ut, nesciunt blanditiis explicabo magnam aut fugit deleniti beatae repellendus sit enim in unde laborum.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime facere mollitia? Explicabo, quod doloremque placeat aliquid beatae obcaecati deserunt sunt quia at velit perspiciatis rerum numquam incidunt atque impedit!</li>
+                </ul>
+              </Link>
             </div>
-          </Link>
-          <Link className={styles.project_left} href="/projects/twitch-bot">
-            <div className={`${generics.ccw_1} ${generics.main_purple} ${styles.project_container}`}>
-              <h1 className={styles.project_title}>Twitch-bot Maze</h1>
-              <ul className={styles.project_summary}>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod quasi sunt? Ipsum, impedit. Magni exercitationem obcaecati quasi autem eligendi itaque laboriosam assumenda amet natus perspiciatis molestiae nobis, consequuntur blanditiis?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eveniet, labore consectetur blanditiis accusantium corrupti inventore molestiae adipisci soluta delectus error? Asperiores aliquid corrupti provident quasi officiis consequatur sit. Enim!</li>
-              </ul>
-              <div className={styles.screenshot_container}>
-              </div>
+          </div>
+          <div className={styles.project_left}>
+            <div className={`${generics.cw_1} ${generics.main_purple} ${styles.project_container}`}>
+              <Link href="/projects/twitchbot">
+                <h1 className={styles.project_title}>Twitchbot Game</h1>
+                <ul className={styles.project_summary}>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error ullam, ex voluptates pariatur velit ut, nesciunt blanditiis explicabo magnam aut fugit deleniti beatae repellendus sit enim in unde laborum.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime facere mollitia? Explicabo, quod doloremque placeat aliquid beatae obcaecati deserunt sunt quia at velit perspiciatis rerum numquam incidunt atque impedit!</li>
+                </ul>
+              </Link>
             </div>
-          </Link>
+          </div>
         </div>
       </main>
     </>
