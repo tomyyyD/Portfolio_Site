@@ -86,9 +86,9 @@ export default function Home() {
                 <li>For this website we built a proprietary ticketing system, our own administrator portal to manage tickets, as well as the frontend that users see.</li>
               </ul>
               <div className={styles.screenshot_container}>
-                <Image priority className={styles.screenshot} src="/screenshots/ojrtpac/ojrtpac.1.png" alt="ojrtpac home page" width={800} height={600}></Image>
-                <Image priority className={styles.screenshot} src="/screenshots/ojrtpac/ojrtpac.2.png" alt="ojrtpac home page" width={800} height={600}></Image>
-                <Image priority className={styles.screenshot} src="/screenshots/ojrtpac/ojrtpac.3.png" alt="ojrtpac home page" width={800} height={600}></Image>
+                <Image className={styles.screenshot} src="/screenshots/ojrtpac/ojrtpac.1.png" alt="ojrtpac home page" width={800} height={600}></Image>
+                <Image className={styles.screenshot} src="/screenshots/ojrtpac/ojrtpac.2.png" alt="ojrtpac home page" width={800} height={600}></Image>
+                <Image className={styles.screenshot} src="/screenshots/ojrtpac/ojrtpac.3.png" alt="ojrtpac home page" width={800} height={600}></Image>
               </div>
               <Link href="/projects/ojrtpac">
               </Link>
@@ -119,6 +119,14 @@ export default function Home() {
                 <li>It usees the Firebase Realtime database for communicating in real time with friends or anyone else in your chatroom.</li>
                 <li>Any user had the ability to create chatrooms and others users can access those chatrooms</li>
               </ul>
+              <div className={styles.screenshot_container}>
+                <Image className={styles.phone_screenshot} src="/screenshots/chatroom/chatroom.1.png" alt="chatroom login screen" width={300} height={650}></Image>
+                <Image className={styles.phone_screenshot} src="/screenshots/chatroom/chatroom.2.png" alt="chatroom registration screen" width={300} height={650}></Image>
+                <Image className={styles.phone_screenshot} src="/screenshots/chatroom/chatroom.3.png" alt="chatroom messaging screen with keyboard" width={300} height={650}></Image>
+                <Image className={styles.phone_screenshot} src="/screenshots/chatroom/chatroom.4.png" alt="chatroom messaging screen without keyboard" width={300} height={650}></Image>
+                <Image className={styles.phone_screenshot} src="/screenshots/chatroom/chatroom.5.png" alt="populated chatroom" width={300} height={650}></Image>
+                <Image className={styles.phone_screenshot} src="/screenshots/chatroom/chatroom.6.png" alt="chatroom selection screen" width={300} height={650}></Image>
+              </div>
               <Link href="/projects/chatroom-app">
               </Link>
             </div>
