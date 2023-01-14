@@ -18,9 +18,9 @@ export default function About() {
 				<title>About</title>
 				<link rel="icon" href="/favicon.io"></link>
 			</Head>
-			<Header></Header>
+			<Header />
 			<main className={`${styles.main} ${rubik.className}`}>
-				<Title title="About" color="--main-blue"></Title>
+				<Title title="About" color="--main-blue" />
 			</main>
 		</>
 	)

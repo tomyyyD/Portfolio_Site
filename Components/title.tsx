@@ -1,4 +1,3 @@
-import generics from "../styles/generics.module.css"
 import styles from "../styles/Home.module.css"
 
 interface title {
