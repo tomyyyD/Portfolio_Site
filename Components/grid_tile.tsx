@@ -12,7 +12,7 @@ export default function Grid_Tile(props: tile_content) {
   return (
     <>
       <div className={`${styles.grid_item} ${props.position}`}>
-        <h2>Me</h2>
+        <h2>{props.title}</h2>
         <ul className={styles.grid_content}>
           {props.elements.map((element, index) => (
             <li key={index}><p>{element}</p></li>
