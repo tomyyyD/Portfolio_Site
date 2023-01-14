@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import Header from "../../Components/header";
+import Title from "../../Components/title";
 //syles
 import generics from "../../styles/generics.module.css";
 import styles from "../../styles/Home.module.css";
@@ -25,10 +26,7 @@ export default function Home() {
       </Head>
       <Header></Header>
       <main className={`${styles.main} ${rubik.className}`}>
-        <div className={styles.title_text}>
-          <h1 className={styles.header_text}>Projects</h1>
-          <div className={`${generics.main_green} ${styles.header_underline}`}></div>
-        </div>
+        <Title title="Projects" color="--main-green"></Title>
         <div className={styles.projects_list}>
           <div className={styles.project_left}>
             <div className={`${generics.ccw_1} ${generics.main_red} ${styles.project_container}`}>
