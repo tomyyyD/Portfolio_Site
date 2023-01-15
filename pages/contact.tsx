@@ -1,24 +1,18 @@
-//Fonts
-import { Rubik } from "@next/font/google"
 //components
 import Head from "next/head"
-import Header from "../Components/header"
 import Title from "../Components/title"
 //styles
+import generics from "../styles/generics.module.css"
 import styles from "../styles/Home.module.css"
-
-const rubik = Rubik({ subsets: ['latin'] })
 
 export default function Contact() {
   return (
     <>
       <Head>
-
+        <title>Contact Me</title>
+        <link rel="icon" href="/favicon.ico"></link>
       </Head>
-      <Header />
-      <main className={`${styles.main} ${rubik.className}`}>
-        <Title title="Contact Me!" color="--secondary-blue" />
-      </main>
+      <Title title="Contact Me!" color={generics.secondary_blue} />
     </>
   )
 }
