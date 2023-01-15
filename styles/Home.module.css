@@ -297,8 +297,8 @@
 
 .screenshot_two {
   position: absolute;
-  top: 100px;
-  left: 200px;
+  top: 50px;
+  left: 100px;
 }
 
 @media (max-width: 1400px) and (min-width: 900px) {
