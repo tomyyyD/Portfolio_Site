@@ -13,6 +13,11 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico"></link>
       </Head>
       <Title title="Contact Me!" color={generics.secondary_blue} />
+      <div className={`${styles.about_text} ${styles.project_left}`}>
+        <div className={`${generics.main_green} ${styles.project_container}`}>
+          <p>If you&apos;d like to get in contact with me send me an email at thomas64d.7@gmail.com </p>
+        </div>
+      </div>
     </>
   )
 }
